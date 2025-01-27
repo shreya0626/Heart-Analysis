@@ -4,6 +4,8 @@
 ## Overview
 The **Heart Disease Prediction App** is a user-friendly tool built with **Streamlit** that uses machine learning to predict the likelihood of heart disease. It also provides an intuitive interface for exploratory data analysis (EDA) and model training.
 
+You can access the live app here: Heart Disease Prediction App.
+
 ## Features
 1. **Heart Disease Prediction**:  
    - Users can input personal and medical details to predict their likelihood of having heart disease.
