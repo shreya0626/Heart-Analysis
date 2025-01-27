@@ -1,10 +1,9 @@
-
 # Heart Disease Prediction App ❤️
 
 ## Overview
 The **Heart Disease Prediction App** is a user-friendly tool built with **Streamlit** that uses machine learning to predict the likelihood of heart disease. It also provides an intuitive interface for exploratory data analysis (EDA) and model training.
 
-You can access the live app here: Heart Disease Prediction App.
+You can access the live app here: **[Heart Disease Prediction App](https://heart-analysis.streamlit.app/)**.
 
 ## Features
 1. **Heart Disease Prediction**:  
@@ -35,53 +34,7 @@ You can access the live app here: Heart Disease Prediction App.
    streamlit run app.py
    ```
 
-## Dataset Requirements
-- The dataset should include the following:
-  - `Gender`: Male/Female.
-  - `Result`: Target column with `positive` or `negative` values.
-  - Additional medical features relevant to heart disease prediction.
-  
-Ensure the file is named `Medicaldataset.csv` or modify the file path in the `app.py` file accordingly.
+## Live Demo
+Check out the live app here: **[Heart Disease Prediction App](https://heart-analysis.streamlit.app/)**.
 
-## Dependencies
-This project requires the following Python libraries:
-- `streamlit`
-- `pandas`
-- `numpy`
-- `seaborn`
-- `matplotlib`
-- `scikit-learn`
-
-Install these using:
-```bash
-pip install streamlit pandas numpy seaborn matplotlib scikit-learn
-```
-
-## Usage
-1. **Check Your Health**:  
-   - Input your details (e.g., gender, age, medical stats) in the app.
-   - Click on the "Predict" button to see results.
-   - View prediction outcomes, advice, and model accuracy.
-
-2. **Model Training**:  
-   - Navigate to the "Model Training" section in the sidebar.
-   - Train a Random Forest model on the dataset and see feature importance.
-
-3. **Data Analysis**:  
-   - Explore the dataset, visualize correlations, and analyze feature distributions.
-
-## Screenshots
-(Include relevant screenshots of the app's interface here.)
-
-
-## Future Improvements
-- Add support for additional machine learning models.
-- Enable data upload functionality for user-specific datasets.
-- Enhance the UI for better interactivity and accessibility.
-
-## License
-This project is licensed under the MIT License.
-
----
-
-Let me know if you'd like additional customization or clarification! 😊
+Let me know if you'd like further updates to this! 😊
