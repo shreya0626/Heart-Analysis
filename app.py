@@ -75,11 +75,6 @@ if option == "Check your health":
             accuracy = accuracy_score(y_test, y_pred)
             st.write(f"### Model Accuracy: {accuracy * 100:.2f}%")
 
-            # Display model details
-            st.write("### Model Details:")
-            st.write(f"Algorithm: Random Forest Classifier")
-            st.write(f"Random Forest Parameters: {model.get_params()}")
-
 elif option == "Model Training":
     st.title("Heart Disease Prediction - Model Training")
     st.write("This section trains a Random Forest model and evaluates its performance.")
